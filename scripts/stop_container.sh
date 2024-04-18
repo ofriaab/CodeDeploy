@@ -1,3 +1,3 @@
 #!/bin/bash
-sudo docker stop ofriandyair-nginx
-sudo docker rm ofriandyair-nginx
+docker stop ofriandyair-nginx
+docker rm ofriandyair-nginx
