@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 hooks:
   BeforeInstall:
-    - location: scripts/install_dependencies.sh
+    - location: scripts/install_deps.sh
       timeout: 300
       runas: root
     - location: scripts/start_container.sh
